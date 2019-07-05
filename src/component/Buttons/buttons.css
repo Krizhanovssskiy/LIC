@@ -1,0 +1,37 @@
+.round-buttons {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.added-btn-props {
+  border: 1px dashed #C7C0CA;
+  color: #953095;
+}
+
+.btn-transparent {
+  border: none;
+  background: transparent;
+  font-size: 25px;
+  font-weight: 300;
+  color: #878787;
+  cursor: pointer;
+}
+
+.link-social-network {
+  background: #953095;
+  color: #ffffff;
+}
+
+.share-all {
+  background: #36113F;
+  color: #FFFFFF;
+  opacity: 0.28;
+}

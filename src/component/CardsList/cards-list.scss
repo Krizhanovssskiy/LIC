@@ -1,0 +1,32 @@
+.CardsList {
+  &__photo-container {
+    overflow-y: hidden;
+    margin-bottom: 5px;
+  }
+
+  &__photo-list {
+    position: relative;
+    display: flex;
+    overflow-x: hidden;
+    padding-bottom: 5px;
+
+
+    &:hover {
+      overflow-y: hidden;
+      overflow-x: auto;
+    }
+
+    &::-webkit-scrollbar {
+      max-width: 25px;
+      height: 4px;
+      background: #9C919C;
+      border-radius: 2.5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 2px;
+      background-color: rgba(0,0,0,0.5);
+      -webkit-box-shadow: 0 0 1px rgba(255,255,255,0.5);
+    }
+
+  }
+}

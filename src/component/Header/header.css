@@ -1,0 +1,107 @@
+.header {
+  width: 100%;
+  padding: 5px 0;
+  background: #953095;
+  box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(27.1828px);
+  font-family: SFProText;
+}
+
+.header .logo {
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin-right: 41px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header form {
+  width: 100%;
+  max-width: 490px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-grow: 1;
+  margin: 5px 0;
+  margin-right: 97px;
+}
+
+.header form input {
+  position: absolute;
+  min-width: 100%;
+  height: 36px;
+  padding-left: 35px;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 18px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #9A889F
+}
+.header form button {
+  position: absolute;
+  background: transparent;
+  border: none;
+}
+
+.header form .search-btn {
+  left: 15px;
+  color: #8E8E93;
+}
+
+.header form .reset-btn {
+  right: 15px;
+  color: #7C2D7D;
+}
+
+.header .navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.header .navigation-bar li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-right: 1px solid #720F72;
+  margin-right: 15px;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 16px;
+  color: #36113F;
+}
+
+.header .navigation-bar li:hover {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.header .navigation-bar li:last-child {
+  border:none;
+  margin: 0;
+}
+
+.header .navigation-bar span {
+  margin-right: 15px;
+}
+
+.header .icon {
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+.header .language {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}

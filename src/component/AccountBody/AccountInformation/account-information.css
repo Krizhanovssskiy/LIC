@@ -1,0 +1,165 @@
+.account-information {
+  width: 100%;
+  margin-right: 25px;
+}
+
+.account-information .photo-block {
+  width: 100%;
+  max-height: 227px;
+  height: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.account-information .photo-user {
+  position: absolute;
+  max-width: 227px;
+  width: 100%;
+  max-height: 227px;
+  height: 100%;
+}
+
+.account-information .photo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(180deg, #C2C2C2 0%, #262628 100%);
+  border-radius: 134px;
+}
+
+.account-information .photo .oval {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed #E4E4E4;
+  color: #E4E4E4;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.302423);
+  cursor: pointer;
+}
+
+.account-information .change-picture {
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.account-information .change-picture span {
+  margin-left: 10px;
+  font-family: SFProText;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.account-information .change-picture .shape {
+  font-size: 20px;
+}
+
+.account-information .bitmap {
+  position: absolute;
+  right: 0;
+  bottom: calc(50% - (173px / 2));
+
+  max-width: 173px;
+  width: 100%;
+  max-height: 173px;
+  height: 100%;
+  padding: 3px;
+
+  border-radius: 50%;
+  background: linear-gradient(to top, #FB598F 0%, #B92DF5 100%);
+}
+
+.account-information .bitmap div {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border-radius: 50%;
+  background: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-information .user-information {
+  width: 100%;
+  max-height: 100%;
+  padding: 20px 15px;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.account-information .user-information .user-inform {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-information .user-information .user-inform input {
+  max-width: 264px;
+  width: 100%;
+  background: #EEEEEE;
+  border: none;
+  margin-bottom: 5px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #262628;
+}
+
+/*//////////////////////////////////////////*/
+
+.account-information .social-networks {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.account-information .social-networks .indent {
+  margin-right: 5px;
+}
+
+.account-information .social-networks .indent:last-child {
+  margin-right: 0;
+}
+
+.account-information .user-video {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.account-information .user-video .added-video {
+  width: 68px;
+  height: 68px;
+  margin-right: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  color: #953095;
+  border: 1px dashed #CDC7D0;
+  border-radius: 50%;
+}
+
+

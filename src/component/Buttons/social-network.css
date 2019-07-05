@@ -1,0 +1,15 @@
+.social-network-block {
+
+}
+
+.link-social-network {
+  position: relative;
+  background: #953095;
+  color: #ffffff;
+}
+
+.link-social-network .popup-btn {
+  position: absolute;
+  top: -30px;
+  display: flex;
+}

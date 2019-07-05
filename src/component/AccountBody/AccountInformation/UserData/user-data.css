@@ -1,0 +1,61 @@
+.user-data .data-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #EDEDED;
+}
+
+.user-data span {
+  font-family: Roboto sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #000000;
+}
+
+.user-data li {
+  position: relative;
+}
+
+.user-data .popup {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+
+  padding: 15px 10px;
+  background: #353535;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.370216);
+  border-radius: 4px;
+  z-index: 1;
+}
+.user-data .popup div {
+  display: flex;
+}
+
+.user-data .popup input {
+  width: 100%;
+  margin-right: 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #979797;
+
+  font-family: Roboto sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.user-data .popup .btn-marg {
+  margin-right: 15px;
+}
+
